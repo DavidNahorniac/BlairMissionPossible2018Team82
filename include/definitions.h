@@ -18,7 +18,7 @@ Use this file to define new types, pins, etc.
 
 
 //motor pins
-#define TEST_MOTOR 1
+#define TEST_MOTOR 2
 
 
 

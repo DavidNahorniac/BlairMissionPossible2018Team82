@@ -11,6 +11,8 @@
  */
 
 #include "main.h"
+#include "definitions.h"
+#define TEST_MOTOR 2
 
 /*
  * Runs the user autonomous code. This function will be started in its own task with the default
@@ -27,5 +29,8 @@
  * so, the robot will await a switch to another mode or disable/enable cycle.
  */
 void autonomous() {
+  printf("This is a test.");
+  while(true){
   motorSet(TEST_MOTOR, 75);
-}
+  delay(1000);
+}}
