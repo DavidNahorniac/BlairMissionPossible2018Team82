@@ -5,9 +5,11 @@ Use this file to define new types, pins, etc.
 
 */
 
+
+
+
 #ifndef DEFINITIONS_H
 #define DEFINITIONS_H
-
 
 //digital pins
 #define EXAMPLE_PIN_DIGITAL 5 //example
@@ -19,6 +21,7 @@ Use this file to define new types, pins, etc.
 
 //motor pins
 #define TEST_MOTOR 2
+
 
 
 
